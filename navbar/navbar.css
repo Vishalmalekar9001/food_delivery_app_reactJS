@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav > a, nav button{
+    margin: 0 25px;
+}
+
+.logo {
+    height: 20vh
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+.pill{
+    background-color: #ffffff;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.pill:hover{
+    background-color: #f0ba26;
+    color: white;
+    font-weight: 900;
+    border: none;
+}

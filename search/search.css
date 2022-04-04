@@ -1,0 +1,22 @@
+.searchbar{
+    background-image: url("../../assets/searchbg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchbox{
+    outline: none;
+    text-align: center;
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 5px;
+}
+

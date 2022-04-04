@@ -1,0 +1,54 @@
+.carticon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  outline: none;
+}
+.carticon > button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.cartlist {
+  box-shadow: 10px 3px 6px rgba(0, 0, 0, 0.16), 2px 3px 6px rgba(0, 0, 0, 0.40);
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 40px;
+  transform: translateY(calc(45% + 60px)) translateX(calc(-50% + 30px));
+  background: #ebe6e6;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.cartlist li {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+}
+
+.naya-li {
+  border-top: dotted 1px black;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.cartitemname {
+  width: 70%;
+}
+
+.cartitemprice {
+  width: 20%;
+}
+
+.cross {
+  color: grey;
+  width: 10%;
+  cursor: pointer;
+}
